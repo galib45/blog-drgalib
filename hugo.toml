@@ -37,7 +37,8 @@ taxonomies.tag = "tags"
     name = "facebook"
     url = "https://www.facebook.com/asadul.algalib.7528"
 
-outputs.home = ["HTML", "JSON"] # necessary for search
+[outputs]
+  home = ['html', 'json']
 
 [[menu.main]]
   identifier = "medical"
