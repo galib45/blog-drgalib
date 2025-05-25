@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://dr-galib.netlify.app/sitemap.xml

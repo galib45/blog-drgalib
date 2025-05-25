@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tech on Dr. Asadul Al Galib</title>
+    <link>https://dr-galib.netlify.app/tech/</link>
+    <description>Recent content in Tech on Dr. Asadul Al Galib</description>
+    <generator>Hugo -- 0.147.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 May 2025 16:07:36 +0600</lastBuildDate>
+    <atom:link href="https://dr-galib.netlify.app/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using USB Wifi Adapter in Linux</title>
+      <link>https://dr-galib.netlify.app/tech/using-usb-wifi-adapter-in-linux/</link>
+      <pubDate>Sun, 25 May 2025 16:07:36 +0600</pubDate>
+      <guid>https://dr-galib.netlify.app/tech/using-usb-wifi-adapter-in-linux/</guid>
+      <description>&lt;p&gt;My Acer laptop doesn&amp;rsquo;t have a linux-supported built-in wireless adapter. It has MediaTek mt7902 chipset which doesn&amp;rsquo;t have any drivers for linux. MediaTek doesn&amp;rsquo;t like linux and if you don&amp;rsquo;t know the firmware code and how it works, you cannot write a driver for it. I searched around in google but didn&amp;rsquo;t find any solution. After doing some research I decided to buy a USB adapter. Those with drivers baked in the linux kernel were expensive, so I bought a cheap one, &lt;a href=&#34;https://www.startech.com.bd/cudy-wu1300s-wifi-usb-adapter?srsltid=AfmBOorAZffZTH6v_64dkXL3OuYuHxpqyMX_maVeg48PRXcHR6zFfdah&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Cudy WU1300S&lt;/a&gt;
+ from StarTech.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Setup Hyprland in bare metal Void Linux</title>
+      <link>https://dr-galib.netlify.app/tech/setup-hyprland-in-bare-metal-void-linux/</link>
+      <pubDate>Tue, 08 Oct 2024 00:47:38 +0000</pubDate>
+      <guid>https://dr-galib.netlify.app/tech/setup-hyprland-in-bare-metal-void-linux/</guid>
+      <description>&lt;p&gt;All the commands with sudo in front can be run from the root account or the chroot environment without writing sudo in front.&lt;/p&gt;
+&lt;h2 id=&#34;configure-the-timezone&#34;&gt;Configure the timezone&lt;/h2&gt;
+&lt;p&gt;Information about timezones are stored in the &lt;code&gt;/usr/share/zoneinfo/&lt;/code&gt; directory. As I live in Dhaka, my zoneinfo file is located at &lt;code&gt;/usr/share/zoneinfo/Asia/Dhaka&lt;/code&gt;.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo ln -sf /usr/share/zoneinfo/&amp;lt;timezone&amp;gt; /etc/localtime
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;install-fonts&#34;&gt;Install fonts&lt;/h2&gt;
+&lt;p&gt;Here we are installing a nerd font (I like Iosevka) and a Bangla font as because I am Bangladeshi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Install Void Linux from Debian</title>
+      <link>https://dr-galib.netlify.app/tech/install-void-linux-from-debian/</link>
+      <pubDate>Mon, 07 Oct 2024 20:39:49 +0000</pubDate>
+      <guid>https://dr-galib.netlify.app/tech/install-void-linux-from-debian/</guid>
+      <description>&lt;h2 id=&#34;download-the-installation-media&#34;&gt;Download the installation media&lt;/h2&gt;
+&lt;p&gt;At first, go to the &lt;a href=&#34;https://voidlinux.org/download/&#34;&gt;download page&lt;/a&gt; of void linux and download rootfs tarball (i downloaded the glibc version).&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;grabbing the rootfs tarball&#34; loading=&#34;lazy&#34; src=&#34;https://dr-galib.netlify.app/tech/install-void-linux-from-debian/grabbing-the-rootfs-tarball.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;create-partitions&#34;&gt;Create partitions&lt;/h2&gt;
+&lt;p&gt;For simplicity, i created only the root partition &lt;code&gt;/&lt;/code&gt;, no swap, no EFI partition. My existing system already has an EFI partition mounted at &lt;code&gt;/boot/efi&lt;/code&gt;. I used &lt;a href=&#34;https://gparted.org/&#34;&gt;gparted&lt;/a&gt; for creating partitions.&lt;/p&gt;
+&lt;p&gt;Launch gparted and manage some unallocated space. I shrunk one of my existing partitions and kept 80 GB of unallocated space.
+&lt;img alt=&#34;unallocated-space&#34; loading=&#34;lazy&#34; src=&#34;https://dr-galib.netlify.app/tech/install-void-linux-from-debian/unallocated-space.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

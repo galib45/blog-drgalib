@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Driver on Dr. Asadul Al Galib</title>
+    <link>https://dr-galib.netlify.app/tags/driver/</link>
+    <description>Recent content in Driver on Dr. Asadul Al Galib</description>
+    <generator>Hugo -- 0.147.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 May 2025 16:07:36 +0600</lastBuildDate>
+    <atom:link href="https://dr-galib.netlify.app/tags/driver/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using USB Wifi Adapter in Linux</title>
+      <link>https://dr-galib.netlify.app/tech/using-usb-wifi-adapter-in-linux/</link>
+      <pubDate>Sun, 25 May 2025 16:07:36 +0600</pubDate>
+      <guid>https://dr-galib.netlify.app/tech/using-usb-wifi-adapter-in-linux/</guid>
+      <description>&lt;p&gt;My Acer laptop doesn&amp;rsquo;t have a linux-supported built-in wireless adapter. It has MediaTek mt7902 chipset which doesn&amp;rsquo;t have any drivers for linux. MediaTek doesn&amp;rsquo;t like linux and if you don&amp;rsquo;t know the firmware code and how it works, you cannot write a driver for it. I searched around in google but didn&amp;rsquo;t find any solution. After doing some research I decided to buy a USB adapter. Those with drivers baked in the linux kernel were expensive, so I bought a cheap one, &lt;a href=&#34;https://www.startech.com.bd/cudy-wu1300s-wifi-usb-adapter?srsltid=AfmBOorAZffZTH6v_64dkXL3OuYuHxpqyMX_maVeg48PRXcHR6zFfdah&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Cudy WU1300S&lt;/a&gt;
+ from StarTech.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

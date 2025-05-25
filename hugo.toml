@@ -1,0 +1,56 @@
+baseURL = "https://dr-galib.netlify.app/"
+languageCode = "en-us"
+title = "Dr. Asadul Al Galib" 
+theme = "PaperMod"
+
+enableEmoji = true
+enableRobotsTXT = true
+
+[pagination]
+  disableAliases = false
+  pagerSize = 5
+
+assets.disableHLJS = true
+markup.highlight.noClasses = false
+taxonomies.tag = "tags"
+
+[params]
+  env = "production"
+  showtoc = true
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowWordCount = true
+  mainSections = ["medical", "tech"]
+  homeInfoParams.Title = "Hi, I’m Dr. Asadul Al Galib" 
+  homeInfoParams.Content = "I am an orthopedic surgery resident at NITOR, Dhaka, with a deep passion for both healing bones and writing code. \n\nAfter completing my MBBS in 2022 and earning my BMDC license in 2023, I embarked on my journey in orthopedics. Alongside medicine, I’ve been programming since 2014, exploring languages like C, Python, Rust, Go, Zig, and Kotlin. I work across platforms, develop for Linux and Android, and enjoy building tools, apps, and ideas that blend medicine and technology. \n\nThis site is my digital workspace — a blend of clinical insights, technical experiments, and everything I’m learning along the way. Whether you’re a fellow doctor, a developer, or just curious, welcome."
+
+  [[socialIcons]]
+    name = "email"
+    url = "mailto:dr.asadul.algalib@gmail.com"
+  [[socialIcons]]
+    name = "github"
+    url = "https://github.com/galib45"
+  [[socialIcons]]
+    name = "facebook"
+    url = "https://www.facebook.com/asadul.algalib.7528"
+
+outputs.home = ["HTML", "JSON"] # necessary for search
+
+[[menu.main]]
+  identifier = "medical"
+  name = "Medical"
+  url = "/medical/"
+  weight = 10
+[[menu.main]]
+  identifier = "tech"
+  name = "Tech"
+  url = "/tech/"
+  weight = 20
+[[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+  weight = 30
