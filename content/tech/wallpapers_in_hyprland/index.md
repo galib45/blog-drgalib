@@ -3,7 +3,7 @@ date = '2025-05-29T00:41:30+06:00'
 title = 'Wallpapers in Hyprland'
 tags = ["hyprland", "wallpaper", "hyprpaper", "linux"]
 [cover]
-  image = "thumbnail.png"
+  image = "/tech/wallpapers_in_hyprland/thumbnail.png"
 +++
 
 I will be using {{< extlink title="hyprpaper" url="https://github.com/hyprwm/hyprpaper" >}} for setting wallpaper in hyprland. Install it using your package manager. For me the command is 

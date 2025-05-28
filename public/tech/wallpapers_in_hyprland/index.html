@@ -75,9 +75,9 @@ exec-once = hyprpaper Now to set a wallpaper we have to preload the image file t
     <meta property="article:tag" content="Wallpaper">
     <meta property="article:tag" content="Hyprpaper">
     <meta property="article:tag" content="Linux">
-    <meta property="og:image" content="https://dr-galib.netlify.app/thumbnail.png">
+    <meta property="og:image" content="https://dr-galib.netlify.app/tech/wallpapers_in_hyprland/thumbnail.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://dr-galib.netlify.app/thumbnail.png">
+<meta name="twitter:image" content="https://dr-galib.netlify.app/tech/wallpapers_in_hyprland/thumbnail.png">
 <meta name="twitter:title" content="Wallpapers in Hyprland">
 <meta name="twitter:description" content="I will be using hyprpaper
  for setting wallpaper in hyprland. Install it using your package manager. For me the command is
@@ -120,7 +120,7 @@ Now to set a wallpaper we have to preload the image file to memory first and the
   "articleBody": "I will be using hyprpaper for setting wallpaper in hyprland. Install it using your package manager. For me the command is\nsudo xbps-install hyprpaper Now add the following line to your hyprland config store at ~/.config/hypr/hyprland.conf to autostart hyprpaper when hyprland starts.\nexec-once = hyprpaper Now to set a wallpaper we have to preload the image file to memory first and then set it. Hyprland sets a wallpaper by itself on startup, so we have to unload it first. So, the sequence of commands is unload, preload, set. The command for this is\nhyprctl --instance 0 hyprpaper unload all hyprctl --instance 0 hyprpaper preload path/to/wallpaper hyprctl --instance 0 hyprpaper wallpaper , path/to/wallpaper But there is a problem with doing it this way. If you exit Hyprland and then re-enter or logout and then login, this wallpaper will be gone. Because hyprland sets a wallpaper by itself on startup. To make the wallpaper persist, we have to save it to ~/.config/hypr/hyprpaper.conf file.\npreload = path/to/wallpaper wallpaper = , path/to/wallpaper So, whenever you set a new wallpaper you have to run the 3 hyprctl commands and write 2 lines in ~/.config/hypr/hyprpaper.conf file. To automate this, we will write a bash script. I saved it to ~/scripts/setwallpaper.\n#!/bin/bash set -xe HYPRPAPER_CONFIG_FILE=~/.config/hypr/hyprpaper.conf WALLPAPERS_DIR=~/wallpapers WALLPAPER=\"$(find $WALLPAPERS_DIR -type f | shuf -n 1)\" echo \"preload = $WALLPAPER\" \u003e $HYPRPAPER_CONFIG_FILE echo \"wallpaper = , $WALLPAPER\" \u003e\u003e $HYPRPAPER_CONFIG_FILE hyprctl --instance 0 hyprpaper unload all hyprctl --instance 0 hyprpaper preload $WALLPAPER hyprctl --instance 0 hyprpaper wallpaper , $WALLPAPER Now make it executable using chmod +x ~/scripts/setwallpaper. This randomly selects a wallpaper from the ~/wallpapers directory, saves it to hyprpaper config and sets the wallpaper using hyprctl commands.\nFinally, you can configure a keybinding in your hyprland config. I set the SUPER + SHIFT + W to run the ~/scripts/setwallpaper.\nbind = $mainMod SHIFT, W, exec, ~/scripts/setwallpaper ",
   "wordCount" : "307",
   "inLanguage": "en",
-  "image":"https://dr-galib.netlify.app/thumbnail.png","datePublished": "2025-05-29T00:41:30+06:00",
+  "image":"https://dr-galib.netlify.app/tech/wallpapers_in_hyprland/thumbnail.png","datePublished": "2025-05-29T00:41:30+06:00",
   "dateModified": "2025-05-29T00:41:30+06:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
@@ -209,12 +209,7 @@ Now to set a wallpaper we have to preload the image file to memory first and the
 </div>
   </header> 
 <figure class="entry-cover">
-            <img loading="eager"
-                srcset='https://dr-galib.netlify.app/tech/wallpapers_in_hyprland/thumbnail_hu_6bf9bb6be6382bcf.png 360w,https://dr-galib.netlify.app/tech/wallpapers_in_hyprland/thumbnail_hu_7bf8b5659da27bdc.png 480w,https://dr-galib.netlify.app/tech/wallpapers_in_hyprland/thumbnail_hu_2ba76365ace21358.png 720w,https://dr-galib.netlify.app/tech/wallpapers_in_hyprland/thumbnail_hu_a787dd22977b4d0.png 1080w,https://dr-galib.netlify.app/tech/wallpapers_in_hyprland/thumbnail.png 1200w'
-                src="https://dr-galib.netlify.app/tech/wallpapers_in_hyprland/thumbnail.png"
-                sizes="(min-width: 768px) 720px, 100vw"
-                width="1200" height="630"
-                alt="">
+        <img loading="eager" src="https://dr-galib.netlify.app/tech/wallpapers_in_hyprland/thumbnail.png" alt="">
         
 </figure>
 
