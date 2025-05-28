@@ -26,6 +26,7 @@ taxonomies.tag = "tags"
   mainSections = ["medical", "tech"]
   homeInfoParams.Title = "Hi, I’m Dr. Asadul Al Galib" 
   homeInfoParams.Content = "I am an orthopedic surgery resident at NITOR, Dhaka, with a deep passion for both healing bones and writing code. \n\nAfter completing my MBBS in 2022 and earning my BMDC license in 2023, I embarked on my journey in orthopedics. Alongside medicine, I’ve been programming since 2014, exploring languages like C, Python, Rust, Go, Zig, and Kotlin. I work across platforms, develop for Linux and Android, and enjoy building tools, apps, and ideas that blend medicine and technology. \n\nThis site is my digital workspace — a blend of clinical insights, technical experiments, and everything I’m learning along the way. Whether you’re a fellow doctor, a developer, or just curious, welcome."
+  cover.hiddenInList = true
 
   [[socialIcons]]
     name = "email"

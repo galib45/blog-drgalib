@@ -2,25 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dr-galib.netlify.app/tags/dkms/</loc>
-    <lastmod>2025-05-25T16:07:36+06:00</lastmod>
-  </url><url>
     <loc>https://dr-galib.netlify.app/</loc>
+    <lastmod>2025-05-29T00:41:30+06:00</lastmod>
+  </url><url>
+    <loc>https://dr-galib.netlify.app/tags/hyprland/</loc>
+    <lastmod>2025-05-29T00:41:30+06:00</lastmod>
+  </url><url>
+    <loc>https://dr-galib.netlify.app/tags/hyprpaper/</loc>
+    <lastmod>2025-05-29T00:41:30+06:00</lastmod>
+  </url><url>
+    <loc>https://dr-galib.netlify.app/tags/linux/</loc>
+    <lastmod>2025-05-29T00:41:30+06:00</lastmod>
+  </url><url>
+    <loc>https://dr-galib.netlify.app/tags/</loc>
+    <lastmod>2025-05-29T00:41:30+06:00</lastmod>
+  </url><url>
+    <loc>https://dr-galib.netlify.app/tech/</loc>
+    <lastmod>2025-05-29T00:41:30+06:00</lastmod>
+  </url><url>
+    <loc>https://dr-galib.netlify.app/tags/wallpaper/</loc>
+    <lastmod>2025-05-29T00:41:30+06:00</lastmod>
+  </url><url>
+    <loc>https://dr-galib.netlify.app/tech/wallpapers_in_hyprland/</loc>
+    <lastmod>2025-05-29T00:41:30+06:00</lastmod>
+  </url><url>
+    <loc>https://dr-galib.netlify.app/tags/dkms/</loc>
     <lastmod>2025-05-25T16:07:36+06:00</lastmod>
   </url><url>
     <loc>https://dr-galib.netlify.app/tags/driver/</loc>
     <lastmod>2025-05-25T16:07:36+06:00</lastmod>
   </url><url>
     <loc>https://dr-galib.netlify.app/tags/kernel/</loc>
-    <lastmod>2025-05-25T16:07:36+06:00</lastmod>
-  </url><url>
-    <loc>https://dr-galib.netlify.app/tags/linux/</loc>
-    <lastmod>2025-05-25T16:07:36+06:00</lastmod>
-  </url><url>
-    <loc>https://dr-galib.netlify.app/tags/</loc>
-    <lastmod>2025-05-25T16:07:36+06:00</lastmod>
-  </url><url>
-    <loc>https://dr-galib.netlify.app/tech/</loc>
     <lastmod>2025-05-25T16:07:36+06:00</lastmod>
   </url><url>
     <loc>https://dr-galib.netlify.app/tech/using-usb-wifi-adapter-in-linux/</loc>
