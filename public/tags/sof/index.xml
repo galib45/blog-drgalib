@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sof on Dr. Asadul Al Galib</title>
+    <link>https://dr-galib.netlify.app/tags/sof/</link>
+    <description>Recent content in Sof on Dr. Asadul Al Galib</description>
+    <generator>Hugo -- 0.147.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jun 2025 01:20:17 +0600</lastBuildDate>
+    <atom:link href="https://dr-galib.netlify.app/tags/sof/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting Up Sound Using Pipewire</title>
+      <link>https://dr-galib.netlify.app/tech/setting-up-sound-using-pipewire/</link>
+      <pubDate>Sun, 01 Jun 2025 01:20:17 +0600</pubDate>
+      <guid>https://dr-galib.netlify.app/tech/setting-up-sound-using-pipewire/</guid>
+      <description>&lt;p&gt;For setting up the sound system in Linux, we need both hardware (sound card) and software (kernel drivers, sound servers, volume control etc).
+&lt;code&gt;sound card -&amp;gt; kernel drivers -&amp;gt; sound servers -&amp;gt; applications&lt;/code&gt;
+So, first we need to check our hardware.&lt;/p&gt;
+&lt;p&gt;using &lt;code&gt;lspci&lt;/code&gt;
+&lt;img alt=&#34;lspci&#34; loading=&#34;lazy&#34; src=&#34;https://dr-galib.netlify.app/tech/setting-up-sound-using-pipewire/lspci.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;using &lt;code&gt;hwinfo&lt;/code&gt;
+&lt;img alt=&#34;hwinfo&#34; loading=&#34;lazy&#34; src=&#34;https://dr-galib.netlify.app/tech/setting-up-sound-using-pipewire/hwinfo.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;kernel-drivers&#34;&gt;Kernel drivers&lt;/h2&gt;
+&lt;h3 id=&#34;sound-open-firmware&#34;&gt;Sound Open Firmware&lt;/h3&gt;
+&lt;p&gt;In my laptop, the sound card is intel&amp;rsquo;s audio controller. Usually, sound is processed by the cpu, but since intel core 10th generation and onwards, they have separated the audio processing functionality from the processor and offloaded it to an integrated small digital signal processor (DSP). For this new type of sound processing hardware, new firmware is needed.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

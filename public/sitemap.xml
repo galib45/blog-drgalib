@@ -2,8 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dr-galib.netlify.app/tags/alsa/</loc>
+    <lastmod>2025-06-01T01:20:17+06:00</lastmod>
+  </url><url>
     <loc>https://dr-galib.netlify.app/</loc>
-    <lastmod>2025-05-29T00:41:30+06:00</lastmod>
+    <lastmod>2025-06-01T01:20:17+06:00</lastmod>
+  </url><url>
+    <loc>https://dr-galib.netlify.app/tags/linux/</loc>
+    <lastmod>2025-06-01T01:20:17+06:00</lastmod>
+  </url><url>
+    <loc>https://dr-galib.netlify.app/tags/pipewire/</loc>
+    <lastmod>2025-06-01T01:20:17+06:00</lastmod>
+  </url><url>
+    <loc>https://dr-galib.netlify.app/tags/pulseaudio/</loc>
+    <lastmod>2025-06-01T01:20:17+06:00</lastmod>
+  </url><url>
+    <loc>https://dr-galib.netlify.app/tech/setting-up-sound-using-pipewire/</loc>
+    <lastmod>2025-06-01T01:20:17+06:00</lastmod>
+  </url><url>
+    <loc>https://dr-galib.netlify.app/tags/sof/</loc>
+    <lastmod>2025-06-01T01:20:17+06:00</lastmod>
+  </url><url>
+    <loc>https://dr-galib.netlify.app/tags/</loc>
+    <lastmod>2025-06-01T01:20:17+06:00</lastmod>
+  </url><url>
+    <loc>https://dr-galib.netlify.app/tech/</loc>
+    <lastmod>2025-06-01T01:20:17+06:00</lastmod>
   </url><url>
     <loc>https://dr-galib.netlify.app/tags/hyprland/</loc>
     <lastmod>2025-05-29T00:41:30+06:00</lastmod>
@@ -11,19 +35,10 @@
     <loc>https://dr-galib.netlify.app/tags/hyprpaper/</loc>
     <lastmod>2025-05-29T00:41:30+06:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tags/linux/</loc>
-    <lastmod>2025-05-29T00:41:30+06:00</lastmod>
-  </url><url>
-    <loc>https://dr-galib.netlify.app/tags/</loc>
-    <lastmod>2025-05-29T00:41:30+06:00</lastmod>
-  </url><url>
-    <loc>https://dr-galib.netlify.app/tech/</loc>
-    <lastmod>2025-05-29T00:41:30+06:00</lastmod>
-  </url><url>
     <loc>https://dr-galib.netlify.app/tags/wallpaper/</loc>
     <lastmod>2025-05-29T00:41:30+06:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tech/wallpapers_in_hyprland/</loc>
+    <loc>https://dr-galib.netlify.app/tech/wallpapers-in-hyprland/</loc>
     <lastmod>2025-05-29T00:41:30+06:00</lastmod>
   </url><url>
     <loc>https://dr-galib.netlify.app/tags/dkms/</loc>

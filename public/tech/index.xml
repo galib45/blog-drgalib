@@ -6,19 +6,37 @@
     <description>Recent content in Tech on Dr. Asadul Al Galib</description>
     <generator>Hugo -- 0.147.5</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 May 2025 00:41:30 +0600</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jun 2025 01:20:17 +0600</lastBuildDate>
     <atom:link href="https://dr-galib.netlify.app/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Setting Up Sound Using Pipewire</title>
+      <link>https://dr-galib.netlify.app/tech/setting-up-sound-using-pipewire/</link>
+      <pubDate>Sun, 01 Jun 2025 01:20:17 +0600</pubDate>
+      <guid>https://dr-galib.netlify.app/tech/setting-up-sound-using-pipewire/</guid>
+      <description>&lt;p&gt;For setting up the sound system in Linux, we need both hardware (sound card) and software (kernel drivers, sound servers, volume control etc).
+&lt;code&gt;sound card -&amp;gt; kernel drivers -&amp;gt; sound servers -&amp;gt; applications&lt;/code&gt;
+So, first we need to check our hardware.&lt;/p&gt;
+&lt;p&gt;using &lt;code&gt;lspci&lt;/code&gt;
+&lt;img alt=&#34;lspci&#34; loading=&#34;lazy&#34; src=&#34;https://dr-galib.netlify.app/tech/setting-up-sound-using-pipewire/lspci.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;using &lt;code&gt;hwinfo&lt;/code&gt;
+&lt;img alt=&#34;hwinfo&#34; loading=&#34;lazy&#34; src=&#34;https://dr-galib.netlify.app/tech/setting-up-sound-using-pipewire/hwinfo.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;kernel-drivers&#34;&gt;Kernel drivers&lt;/h2&gt;
+&lt;h3 id=&#34;sound-open-firmware&#34;&gt;Sound Open Firmware&lt;/h3&gt;
+&lt;p&gt;In my laptop, the sound card is intel&amp;rsquo;s audio controller. Usually, sound is processed by the cpu, but since intel core 10th generation and onwards, they have separated the audio processing functionality from the processor and offloaded it to an integrated small digital signal processor (DSP). For this new type of sound processing hardware, new firmware is needed.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Wallpapers in Hyprland</title>
-      <link>https://dr-galib.netlify.app/tech/wallpapers_in_hyprland/</link>
+      <link>https://dr-galib.netlify.app/tech/wallpapers-in-hyprland/</link>
       <pubDate>Thu, 29 May 2025 00:41:30 +0600</pubDate>
-      <guid>https://dr-galib.netlify.app/tech/wallpapers_in_hyprland/</guid>
-      <description>&lt;p&gt;I will be using &lt;a href=&#34;https://github.com/hyprwm/hyprpaper&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;hyprpaper&lt;/a&gt;
+      <guid>https://dr-galib.netlify.app/tech/wallpapers-in-hyprland/</guid>
+      <description>&lt;h2 id=&#34;installing-and-autostarting-hyprpaper&#34;&gt;Installing and autostarting hyprpaper&lt;/h2&gt;
+&lt;p&gt;I will be using &lt;a href=&#34;https://github.com/hyprwm/hyprpaper&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;hyprpaper&lt;/a&gt;
  for setting wallpaper in hyprland. Install it using your package manager. For me the command is&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-install hyprpaper
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now add the following line to your hyprland config store at &lt;code&gt;~/.config/hypr/hyprland.conf&lt;/code&gt; to autostart &lt;code&gt;hyprpaper&lt;/code&gt; when hyprland starts.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-hyprlang&#34; data-lang=&#34;hyprlang&#34;&gt;exec-once = hyprpaper
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now to set a wallpaper we have to preload the image file to memory first and then set it. Hyprland sets a wallpaper by itself on startup, so we have to unload it first. So, the sequence of commands is unload, preload, set. The command for this is&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;setting-the-wallpaper&#34;&gt;Setting the wallpaper&lt;/h2&gt;
+&lt;p&gt;Now to set a wallpaper we have to preload the image file to memory first and then set it. Hyprland sets a wallpaper by itself on startup, so we have to unload it first. So, the sequence of commands is unload, preload, set. The command for this is&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using USB Wifi Adapter in Linux</title>

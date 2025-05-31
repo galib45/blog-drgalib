@@ -10,15 +10,17 @@
     <atom:link href="https://dr-galib.netlify.app/tags/hyprpaper/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wallpapers in Hyprland</title>
-      <link>https://dr-galib.netlify.app/tech/wallpapers_in_hyprland/</link>
+      <link>https://dr-galib.netlify.app/tech/wallpapers-in-hyprland/</link>
       <pubDate>Thu, 29 May 2025 00:41:30 +0600</pubDate>
-      <guid>https://dr-galib.netlify.app/tech/wallpapers_in_hyprland/</guid>
-      <description>&lt;p&gt;I will be using &lt;a href=&#34;https://github.com/hyprwm/hyprpaper&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;hyprpaper&lt;/a&gt;
+      <guid>https://dr-galib.netlify.app/tech/wallpapers-in-hyprland/</guid>
+      <description>&lt;h2 id=&#34;installing-and-autostarting-hyprpaper&#34;&gt;Installing and autostarting hyprpaper&lt;/h2&gt;
+&lt;p&gt;I will be using &lt;a href=&#34;https://github.com/hyprwm/hyprpaper&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;hyprpaper&lt;/a&gt;
  for setting wallpaper in hyprland. Install it using your package manager. For me the command is&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-install hyprpaper
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now add the following line to your hyprland config store at &lt;code&gt;~/.config/hypr/hyprland.conf&lt;/code&gt; to autostart &lt;code&gt;hyprpaper&lt;/code&gt; when hyprland starts.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-hyprlang&#34; data-lang=&#34;hyprlang&#34;&gt;exec-once = hyprpaper
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now to set a wallpaper we have to preload the image file to memory first and then set it. Hyprland sets a wallpaper by itself on startup, so we have to unload it first. So, the sequence of commands is unload, preload, set. The command for this is&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;setting-the-wallpaper&#34;&gt;Setting the wallpaper&lt;/h2&gt;
+&lt;p&gt;Now to set a wallpaper we have to preload the image file to memory first and then set it. Hyprland sets a wallpaper by itself on startup, so we have to unload it first. So, the sequence of commands is unload, preload, set. The command for this is&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
