@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Obstetrics on Dr. Asadul Al Galib</title>
-    <link>http://localhost:1313/tags/obstetrics/</link>
+    <link>https://dr-galib.netlify.app/tags/obstetrics/</link>
     <description>Recent content in Obstetrics on Dr. Asadul Al Galib</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 08 Jul 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/obstetrics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dr-galib.netlify.app/tags/obstetrics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Abortion</title>
-      <link>http://localhost:1313/medical/abortion/</link>
+      <link>https://dr-galib.netlify.app/medical/abortion/</link>
       <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/abortion/</guid>
+      <guid>https://dr-galib.netlify.app/medical/abortion/</guid>
       <description>&lt;p&gt;Any interruption of pregnancy beyond the age of viability with or without expulsion of the product of conception.&lt;/p&gt;
 &lt;h2 id=&#34;threatened-abortion&#34;&gt;Threatened Abortion&lt;/h2&gt;
 &lt;p&gt;Clinical entity in which the process of abortion has started but has not progressed to a state from which recovery is not impossible.&lt;/p&gt;
@@ -54,9 +54,9 @@
     </item>
     <item>
       <title>Anemia in pregnancy</title>
-      <link>http://localhost:1313/medical/anemia-in-pregnancy/</link>
+      <link>https://dr-galib.netlify.app/medical/anemia-in-pregnancy/</link>
       <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/anemia-in-pregnancy/</guid>
+      <guid>https://dr-galib.netlify.app/medical/anemia-in-pregnancy/</guid>
       <description>&lt;h2 id=&#34;management&#34;&gt;Management&lt;/h2&gt;
 &lt;h3 id=&#34;oral-iron-therapy&#34;&gt;Oral iron therapy&lt;/h3&gt;
 &lt;ul&gt;
@@ -96,9 +96,9 @@
     </item>
     <item>
       <title>Eclampsia</title>
-      <link>http://localhost:1313/medical/eclampsia/</link>
+      <link>https://dr-galib.netlify.app/medical/eclampsia/</link>
       <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/eclampsia/</guid>
+      <guid>https://dr-galib.netlify.app/medical/eclampsia/</guid>
       <description>&lt;h2 id=&#34;management&#34;&gt;Management&lt;/h2&gt;
 &lt;h3 id=&#34;general-management&#34;&gt;General Management&lt;/h3&gt;
 &lt;ul&gt;
@@ -123,13 +123,13 @@
 &lt;li&gt;Drug of choice is MgSO₄&lt;/li&gt;
 &lt;li&gt;If contraindicated or not available, give diazepam&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt=&#34;dose of magnesium sulfate&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/medical/dose-of-magnesium-sulfate.png&#34;&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img alt=&#34;dose of magnesium sulfate&#34; loading=&#34;lazy&#34; src=&#34;https://dr-galib.netlify.app/medical/dose-of-magnesium-sulfate.png&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Multiple Pregnancy</title>
-      <link>http://localhost:1313/medical/multiple-pregnancy/</link>
+      <link>https://dr-galib.netlify.app/medical/multiple-pregnancy/</link>
       <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/multiple-pregnancy/</guid>
+      <guid>https://dr-galib.netlify.app/medical/multiple-pregnancy/</guid>
       <description>&lt;h2 id=&#34;history&#34;&gt;History&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;History of ovulation inducing drugs or use of ART&lt;/li&gt;
@@ -195,13 +195,13 @@
 &lt;li&gt;The baby is labeled as number 1&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;delivery-of-the-second-baby&#34;&gt;Delivery of the Second Baby&lt;/h4&gt;
-&lt;p&gt;&lt;img alt=&#34;delivery of the second baby&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/medical/twin-delivery-of-second-baby.png&#34;&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img alt=&#34;delivery of the second baby&#34; loading=&#34;lazy&#34; src=&#34;https://dr-galib.netlify.app/medical/twin-delivery-of-second-baby.png&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Postpartum Hemorrhage</title>
-      <link>http://localhost:1313/medical/postpartum-hemorrhage/</link>
+      <link>https://dr-galib.netlify.app/medical/postpartum-hemorrhage/</link>
       <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/postpartum-hemorrhage/</guid>
+      <guid>https://dr-galib.netlify.app/medical/postpartum-hemorrhage/</guid>
       <description>&lt;h2 id=&#34;management&#34;&gt;Management&lt;/h2&gt;
 &lt;h3 id=&#34;immediate-measures&#34;&gt;Immediate Measures&lt;/h3&gt;
 &lt;ul&gt;
@@ -219,9 +219,9 @@
     </item>
     <item>
       <title>Pre-eclampsia</title>
-      <link>http://localhost:1313/medical/pre-eclampsia/</link>
+      <link>https://dr-galib.netlify.app/medical/pre-eclampsia/</link>
       <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/pre-eclampsia/</guid>
+      <guid>https://dr-galib.netlify.app/medical/pre-eclampsia/</guid>
       <description>&lt;h2 id=&#34;mild-pre-eclampsia&#34;&gt;Mild Pre-eclampsia&lt;/h2&gt;
 &lt;h3 id=&#34;criteria&#34;&gt;Criteria&lt;/h3&gt;
 &lt;ul&gt;

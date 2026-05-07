@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hyprpaper on Dr. Asadul Al Galib</title>
-    <link>http://localhost:1313/tags/hyprpaper/</link>
+    <link>https://dr-galib.netlify.app/tags/hyprpaper/</link>
     <description>Recent content in Hyprpaper on Dr. Asadul Al Galib</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 29 May 2025 00:41:30 +0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/hyprpaper/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dr-galib.netlify.app/tags/hyprpaper/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wallpapers in Hyprland</title>
-      <link>http://localhost:1313/tech/wallpapers-in-hyprland/</link>
+      <link>https://dr-galib.netlify.app/tech/wallpapers-in-hyprland/</link>
       <pubDate>Thu, 29 May 2025 00:41:30 +0600</pubDate>
-      <guid>http://localhost:1313/tech/wallpapers-in-hyprland/</guid>
+      <guid>https://dr-galib.netlify.app/tech/wallpapers-in-hyprland/</guid>
       <description>&lt;h2 id=&#34;installing-and-autostarting-hyprpaper&#34;&gt;Installing and autostarting hyprpaper&lt;/h2&gt;
 &lt;p&gt;I will be using &lt;a href=&#34;https://github.com/hyprwm/hyprpaper&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;hyprpaper&lt;/a&gt;
  for setting wallpaper in hyprland. Install it using your package manager. For me the command is&lt;/p&gt;

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Shoulder on Dr. Asadul Al Galib</title>
-    <link>http://localhost:1313/tags/shoulder/</link>
+    <link>https://dr-galib.netlify.app/tags/shoulder/</link>
     <description>Recent content in Shoulder on Dr. Asadul Al Galib</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 May 2026 19:13:29 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/shoulder/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dr-galib.netlify.app/tags/shoulder/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Impingement Syndrome</title>
-      <link>http://localhost:1313/medical/orthopedics/impingement-syndrome/</link>
+      <link>https://dr-galib.netlify.app/medical/orthopedics/impingement-syndrome/</link>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/orthopedics/impingement-syndrome/</guid>
+      <guid>https://dr-galib.netlify.app/medical/orthopedics/impingement-syndrome/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;repetitive compression or rubbing of the tendons (mainly supraspinatus) under coraco-acromial arch i.e. subacromial space&lt;/li&gt;
 &lt;li&gt;during abduction -&amp;gt; conjoint tendon slides under coraco-acromial arch&lt;/li&gt;
@@ -47,7 +47,7 @@ All these changes -&amp;gt; rotator cuff dysfunction -&amp;gt; upward displaceme
 &lt;/ul&gt;
 &lt;h2 id=&#34;clinical-features&#34;&gt;Clinical features&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;typically those of a &lt;a href=&#34;http://localhost:1313/medical/orthopedics/rotator-cuff-syndrome&#34;&gt;Rotator Cuff Syndrome&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;typically those of a &lt;a href=&#34;https://dr-galib.netlify.app/medical/orthopedics/rotator-cuff-syndrome&#34;&gt;Rotator Cuff Syndrome&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Subsequent progress depends on the
 &lt;ul&gt;
 &lt;li&gt;stage of the disorder,&lt;/li&gt;
@@ -66,7 +66,7 @@ All these changes -&amp;gt; rotator cuff dysfunction -&amp;gt; upward displaceme
 &lt;h4 id=&#34;subacute-tendinitis-painful-arc-syndrome&#34;&gt;Subacute tendinitis (painful arc syndrome)&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;anterior shoulder pain after vigorous/unaccustomed activity&lt;/li&gt;
-&lt;li&gt;tenderness along the anterior edge of acromion (easily elicited on extension)&lt;img alt=&#34;supraspinatus-tenderness.png&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/ob/images/supraspinatus-tenderness.png&#34;&gt;&lt;/li&gt;
+&lt;li&gt;tenderness along the anterior edge of acromion (easily elicited on extension)&lt;img alt=&#34;supraspinatus-tenderness.png&#34; loading=&#34;lazy&#34; src=&#34;https://dr-galib.netlify.app/ob/images/supraspinatus-tenderness.png&#34;&gt;&lt;/li&gt;
 &lt;li&gt;often reversible, relieves spontaneously by activity modification&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;chronic-tendinitis&#34;&gt;Chronic tendinitis&lt;/h4&gt;
@@ -82,9 +82,9 @@ All these changes -&amp;gt; rotator cuff dysfunction -&amp;gt; upward displaceme
     </item>
     <item>
       <title>Rehabilitation Protocol for Rotator Cuff Tendinitis</title>
-      <link>http://localhost:1313/medical/orthopedics/rehabilitation-protocol-for-rotator-cuff-tendinitis/</link>
+      <link>https://dr-galib.netlify.app/medical/orthopedics/rehabilitation-protocol-for-rotator-cuff-tendinitis/</link>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/orthopedics/rehabilitation-protocol-for-rotator-cuff-tendinitis/</guid>
+      <guid>https://dr-galib.netlify.app/medical/orthopedics/rehabilitation-protocol-for-rotator-cuff-tendinitis/</guid>
       <description>&lt;h2 id=&#34;phase-i-1-2-weeks&#34;&gt;Phase I (1-2 weeks)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;passive of active-assisted ROM exercises in pain-free ranges
@@ -94,15 +94,15 @@ All these changes -&amp;gt; rotator cuff dysfunction -&amp;gt; upward displaceme
 &lt;li&gt;optimize subacromial gliding mechanism&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;phase I ROM -&amp;gt; forward elevation and external rotation, hold for 10 seconds, 10 times each, 2 times daily. both exercises should be pain free&lt;img alt=&#34;impingement-rehab-phase-i.png&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/ob/images/impingement-rehab-phase-i.png&#34;&gt;&lt;/li&gt;
-&lt;li&gt;phase II ROM -&amp;gt; extension, internal rotation, cross-body adduction, hold for 10 seconds, 10 times each, 2-4 times daily &lt;img alt=&#34;cross-body-adduction.png&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/ob/images/cross-body-adduction.png&#34;&gt;&lt;/li&gt;
+&lt;li&gt;phase I ROM -&amp;gt; forward elevation and external rotation, hold for 10 seconds, 10 times each, 2 times daily. both exercises should be pain free&lt;img alt=&#34;impingement-rehab-phase-i.png&#34; loading=&#34;lazy&#34; src=&#34;https://dr-galib.netlify.app/ob/images/impingement-rehab-phase-i.png&#34;&gt;&lt;/li&gt;
+&lt;li&gt;phase II ROM -&amp;gt; extension, internal rotation, cross-body adduction, hold for 10 seconds, 10 times each, 2-4 times daily &lt;img alt=&#34;cross-body-adduction.png&#34; loading=&#34;lazy&#34; src=&#34;https://dr-galib.netlify.app/ob/images/cross-body-adduction.png&#34;&gt;&lt;/li&gt;
 &lt;li&gt;phase I strengthening exercises (using elastic bands / free weights) -&amp;gt; external rotation, internal rotation, flexion, extension&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;phase-ii-2-4-weeks&#34;&gt;Phase II (2-4 weeks)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;pain and inflammation has resolved, ROM &amp;amp; strength improved&lt;/li&gt;
-&lt;li&gt;sleeper stretch -&amp;gt; hold for 10 seconds, 5 times&lt;img alt=&#34;sleeper-stretch.png&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/ob/images/sleeper-stretch.png&#34;&gt;&lt;/li&gt;
-&lt;li&gt;wall stretch &amp;amp; stretch behind the head&lt;img alt=&#34;wall-stretch.png&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/ob/images/wall-stretch.png&#34;&gt;&lt;img alt=&#34;stretch-behind-the-head.png&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/ob/images/stretch-behind-the-head.png&#34;&gt;&lt;/li&gt;
+&lt;li&gt;sleeper stretch -&amp;gt; hold for 10 seconds, 5 times&lt;img alt=&#34;sleeper-stretch.png&#34; loading=&#34;lazy&#34; src=&#34;https://dr-galib.netlify.app/ob/images/sleeper-stretch.png&#34;&gt;&lt;/li&gt;
+&lt;li&gt;wall stretch &amp;amp; stretch behind the head&lt;img alt=&#34;wall-stretch.png&#34; loading=&#34;lazy&#34; src=&#34;https://dr-galib.netlify.app/ob/images/wall-stretch.png&#34;&gt;&lt;img alt=&#34;stretch-behind-the-head.png&#34; loading=&#34;lazy&#34; src=&#34;https://dr-galib.netlify.app/ob/images/stretch-behind-the-head.png&#34;&gt;&lt;/li&gt;
 &lt;li&gt;phase II strengthening (after reaching level 3 resistance in all phase I strengthening exercises) -&amp;gt; abduction and forward elevation to 45 degrees &amp;amp; external rotation at 45 degrees&lt;/li&gt;
 &lt;li&gt;total arm strengthening with biceps and triceps exercises&lt;/li&gt;
 &lt;li&gt;scapular strengthening exercises -&amp;gt; horizontal abduction with scapular retraction, external rotation with elastic resistance&lt;/li&gt;
@@ -117,9 +117,9 @@ All these changes -&amp;gt; rotator cuff dysfunction -&amp;gt; upward displaceme
     </item>
     <item>
       <title>Rotator Cuff Syndrome</title>
-      <link>http://localhost:1313/medical/orthopedics/rotator-cuff-syndrome/</link>
+      <link>https://dr-galib.netlify.app/medical/orthopedics/rotator-cuff-syndrome/</link>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/orthopedics/rotator-cuff-syndrome/</guid>
+      <guid>https://dr-galib.netlify.app/medical/orthopedics/rotator-cuff-syndrome/</guid>
       <description>&lt;p&gt;This comprises of at least four conditions&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;supraspinatus impingement and tendinitis&lt;/li&gt;

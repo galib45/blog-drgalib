@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Medical on Dr. Asadul Al Galib</title>
-    <link>http://localhost:1313/medical/</link>
+    <link>https://dr-galib.netlify.app/medical/</link>
     <description>Recent content in Medical on Dr. Asadul Al Galib</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 May 2026 19:13:29 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/medical/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dr-galib.netlify.app/medical/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Impingement Syndrome</title>
-      <link>http://localhost:1313/medical/orthopedics/impingement-syndrome/</link>
+      <link>https://dr-galib.netlify.app/medical/orthopedics/impingement-syndrome/</link>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/orthopedics/impingement-syndrome/</guid>
+      <guid>https://dr-galib.netlify.app/medical/orthopedics/impingement-syndrome/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;repetitive compression or rubbing of the tendons (mainly supraspinatus) under coraco-acromial arch i.e. subacromial space&lt;/li&gt;
 &lt;li&gt;during abduction -&amp;gt; conjoint tendon slides under coraco-acromial arch&lt;/li&gt;
@@ -47,7 +47,7 @@ All these changes -&amp;gt; rotator cuff dysfunction -&amp;gt; upward displaceme
 &lt;/ul&gt;
 &lt;h2 id=&#34;clinical-features&#34;&gt;Clinical features&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;typically those of a &lt;a href=&#34;http://localhost:1313/medical/orthopedics/rotator-cuff-syndrome&#34;&gt;Rotator Cuff Syndrome&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;typically those of a &lt;a href=&#34;https://dr-galib.netlify.app/medical/orthopedics/rotator-cuff-syndrome&#34;&gt;Rotator Cuff Syndrome&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Subsequent progress depends on the
 &lt;ul&gt;
 &lt;li&gt;stage of the disorder,&lt;/li&gt;
@@ -66,7 +66,7 @@ All these changes -&amp;gt; rotator cuff dysfunction -&amp;gt; upward displaceme
 &lt;h4 id=&#34;subacute-tendinitis-painful-arc-syndrome&#34;&gt;Subacute tendinitis (painful arc syndrome)&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;anterior shoulder pain after vigorous/unaccustomed activity&lt;/li&gt;
-&lt;li&gt;tenderness along the anterior edge of acromion (easily elicited on extension)&lt;img alt=&#34;supraspinatus-tenderness.png&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/ob/images/supraspinatus-tenderness.png&#34;&gt;&lt;/li&gt;
+&lt;li&gt;tenderness along the anterior edge of acromion (easily elicited on extension)&lt;img alt=&#34;supraspinatus-tenderness.png&#34; loading=&#34;lazy&#34; src=&#34;https://dr-galib.netlify.app/ob/images/supraspinatus-tenderness.png&#34;&gt;&lt;/li&gt;
 &lt;li&gt;often reversible, relieves spontaneously by activity modification&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;chronic-tendinitis&#34;&gt;Chronic tendinitis&lt;/h4&gt;
@@ -82,9 +82,9 @@ All these changes -&amp;gt; rotator cuff dysfunction -&amp;gt; upward displaceme
     </item>
     <item>
       <title>Rehabilitation Protocol for Rotator Cuff Tendinitis</title>
-      <link>http://localhost:1313/medical/orthopedics/rehabilitation-protocol-for-rotator-cuff-tendinitis/</link>
+      <link>https://dr-galib.netlify.app/medical/orthopedics/rehabilitation-protocol-for-rotator-cuff-tendinitis/</link>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/orthopedics/rehabilitation-protocol-for-rotator-cuff-tendinitis/</guid>
+      <guid>https://dr-galib.netlify.app/medical/orthopedics/rehabilitation-protocol-for-rotator-cuff-tendinitis/</guid>
       <description>&lt;h2 id=&#34;phase-i-1-2-weeks&#34;&gt;Phase I (1-2 weeks)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;passive of active-assisted ROM exercises in pain-free ranges
@@ -94,15 +94,15 @@ All these changes -&amp;gt; rotator cuff dysfunction -&amp;gt; upward displaceme
 &lt;li&gt;optimize subacromial gliding mechanism&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;phase I ROM -&amp;gt; forward elevation and external rotation, hold for 10 seconds, 10 times each, 2 times daily. both exercises should be pain free&lt;img alt=&#34;impingement-rehab-phase-i.png&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/ob/images/impingement-rehab-phase-i.png&#34;&gt;&lt;/li&gt;
-&lt;li&gt;phase II ROM -&amp;gt; extension, internal rotation, cross-body adduction, hold for 10 seconds, 10 times each, 2-4 times daily &lt;img alt=&#34;cross-body-adduction.png&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/ob/images/cross-body-adduction.png&#34;&gt;&lt;/li&gt;
+&lt;li&gt;phase I ROM -&amp;gt; forward elevation and external rotation, hold for 10 seconds, 10 times each, 2 times daily. both exercises should be pain free&lt;img alt=&#34;impingement-rehab-phase-i.png&#34; loading=&#34;lazy&#34; src=&#34;https://dr-galib.netlify.app/ob/images/impingement-rehab-phase-i.png&#34;&gt;&lt;/li&gt;
+&lt;li&gt;phase II ROM -&amp;gt; extension, internal rotation, cross-body adduction, hold for 10 seconds, 10 times each, 2-4 times daily &lt;img alt=&#34;cross-body-adduction.png&#34; loading=&#34;lazy&#34; src=&#34;https://dr-galib.netlify.app/ob/images/cross-body-adduction.png&#34;&gt;&lt;/li&gt;
 &lt;li&gt;phase I strengthening exercises (using elastic bands / free weights) -&amp;gt; external rotation, internal rotation, flexion, extension&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;phase-ii-2-4-weeks&#34;&gt;Phase II (2-4 weeks)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;pain and inflammation has resolved, ROM &amp;amp; strength improved&lt;/li&gt;
-&lt;li&gt;sleeper stretch -&amp;gt; hold for 10 seconds, 5 times&lt;img alt=&#34;sleeper-stretch.png&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/ob/images/sleeper-stretch.png&#34;&gt;&lt;/li&gt;
-&lt;li&gt;wall stretch &amp;amp; stretch behind the head&lt;img alt=&#34;wall-stretch.png&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/ob/images/wall-stretch.png&#34;&gt;&lt;img alt=&#34;stretch-behind-the-head.png&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/ob/images/stretch-behind-the-head.png&#34;&gt;&lt;/li&gt;
+&lt;li&gt;sleeper stretch -&amp;gt; hold for 10 seconds, 5 times&lt;img alt=&#34;sleeper-stretch.png&#34; loading=&#34;lazy&#34; src=&#34;https://dr-galib.netlify.app/ob/images/sleeper-stretch.png&#34;&gt;&lt;/li&gt;
+&lt;li&gt;wall stretch &amp;amp; stretch behind the head&lt;img alt=&#34;wall-stretch.png&#34; loading=&#34;lazy&#34; src=&#34;https://dr-galib.netlify.app/ob/images/wall-stretch.png&#34;&gt;&lt;img alt=&#34;stretch-behind-the-head.png&#34; loading=&#34;lazy&#34; src=&#34;https://dr-galib.netlify.app/ob/images/stretch-behind-the-head.png&#34;&gt;&lt;/li&gt;
 &lt;li&gt;phase II strengthening (after reaching level 3 resistance in all phase I strengthening exercises) -&amp;gt; abduction and forward elevation to 45 degrees &amp;amp; external rotation at 45 degrees&lt;/li&gt;
 &lt;li&gt;total arm strengthening with biceps and triceps exercises&lt;/li&gt;
 &lt;li&gt;scapular strengthening exercises -&amp;gt; horizontal abduction with scapular retraction, external rotation with elastic resistance&lt;/li&gt;
@@ -117,9 +117,9 @@ All these changes -&amp;gt; rotator cuff dysfunction -&amp;gt; upward displaceme
     </item>
     <item>
       <title>Rotator Cuff Syndrome</title>
-      <link>http://localhost:1313/medical/orthopedics/rotator-cuff-syndrome/</link>
+      <link>https://dr-galib.netlify.app/medical/orthopedics/rotator-cuff-syndrome/</link>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/orthopedics/rotator-cuff-syndrome/</guid>
+      <guid>https://dr-galib.netlify.app/medical/orthopedics/rotator-cuff-syndrome/</guid>
       <description>&lt;p&gt;This comprises of at least four conditions&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;supraspinatus impingement and tendinitis&lt;/li&gt;
@@ -166,9 +166,9 @@ All these changes -&amp;gt; rotator cuff dysfunction -&amp;gt; upward displaceme
     </item>
     <item>
       <title>Abortion</title>
-      <link>http://localhost:1313/medical/abortion/</link>
+      <link>https://dr-galib.netlify.app/medical/abortion/</link>
       <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/abortion/</guid>
+      <guid>https://dr-galib.netlify.app/medical/abortion/</guid>
       <description>&lt;p&gt;Any interruption of pregnancy beyond the age of viability with or without expulsion of the product of conception.&lt;/p&gt;
 &lt;h2 id=&#34;threatened-abortion&#34;&gt;Threatened Abortion&lt;/h2&gt;
 &lt;p&gt;Clinical entity in which the process of abortion has started but has not progressed to a state from which recovery is not impossible.&lt;/p&gt;
@@ -210,9 +210,9 @@ All these changes -&amp;gt; rotator cuff dysfunction -&amp;gt; upward displaceme
     </item>
     <item>
       <title>Anemia in pregnancy</title>
-      <link>http://localhost:1313/medical/anemia-in-pregnancy/</link>
+      <link>https://dr-galib.netlify.app/medical/anemia-in-pregnancy/</link>
       <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/anemia-in-pregnancy/</guid>
+      <guid>https://dr-galib.netlify.app/medical/anemia-in-pregnancy/</guid>
       <description>&lt;h2 id=&#34;management&#34;&gt;Management&lt;/h2&gt;
 &lt;h3 id=&#34;oral-iron-therapy&#34;&gt;Oral iron therapy&lt;/h3&gt;
 &lt;ul&gt;
@@ -252,9 +252,9 @@ All these changes -&amp;gt; rotator cuff dysfunction -&amp;gt; upward displaceme
     </item>
     <item>
       <title>Eclampsia</title>
-      <link>http://localhost:1313/medical/eclampsia/</link>
+      <link>https://dr-galib.netlify.app/medical/eclampsia/</link>
       <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/eclampsia/</guid>
+      <guid>https://dr-galib.netlify.app/medical/eclampsia/</guid>
       <description>&lt;h2 id=&#34;management&#34;&gt;Management&lt;/h2&gt;
 &lt;h3 id=&#34;general-management&#34;&gt;General Management&lt;/h3&gt;
 &lt;ul&gt;
@@ -279,13 +279,13 @@ All these changes -&amp;gt; rotator cuff dysfunction -&amp;gt; upward displaceme
 &lt;li&gt;Drug of choice is MgSO₄&lt;/li&gt;
 &lt;li&gt;If contraindicated or not available, give diazepam&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt=&#34;dose of magnesium sulfate&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/medical/dose-of-magnesium-sulfate.png&#34;&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img alt=&#34;dose of magnesium sulfate&#34; loading=&#34;lazy&#34; src=&#34;https://dr-galib.netlify.app/medical/dose-of-magnesium-sulfate.png&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Multiple Pregnancy</title>
-      <link>http://localhost:1313/medical/multiple-pregnancy/</link>
+      <link>https://dr-galib.netlify.app/medical/multiple-pregnancy/</link>
       <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/multiple-pregnancy/</guid>
+      <guid>https://dr-galib.netlify.app/medical/multiple-pregnancy/</guid>
       <description>&lt;h2 id=&#34;history&#34;&gt;History&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;History of ovulation inducing drugs or use of ART&lt;/li&gt;
@@ -351,13 +351,13 @@ All these changes -&amp;gt; rotator cuff dysfunction -&amp;gt; upward displaceme
 &lt;li&gt;The baby is labeled as number 1&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;delivery-of-the-second-baby&#34;&gt;Delivery of the Second Baby&lt;/h4&gt;
-&lt;p&gt;&lt;img alt=&#34;delivery of the second baby&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/medical/twin-delivery-of-second-baby.png&#34;&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img alt=&#34;delivery of the second baby&#34; loading=&#34;lazy&#34; src=&#34;https://dr-galib.netlify.app/medical/twin-delivery-of-second-baby.png&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Postpartum Hemorrhage</title>
-      <link>http://localhost:1313/medical/postpartum-hemorrhage/</link>
+      <link>https://dr-galib.netlify.app/medical/postpartum-hemorrhage/</link>
       <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/postpartum-hemorrhage/</guid>
+      <guid>https://dr-galib.netlify.app/medical/postpartum-hemorrhage/</guid>
       <description>&lt;h2 id=&#34;management&#34;&gt;Management&lt;/h2&gt;
 &lt;h3 id=&#34;immediate-measures&#34;&gt;Immediate Measures&lt;/h3&gt;
 &lt;ul&gt;
@@ -375,9 +375,9 @@ All these changes -&amp;gt; rotator cuff dysfunction -&amp;gt; upward displaceme
     </item>
     <item>
       <title>Pre-eclampsia</title>
-      <link>http://localhost:1313/medical/pre-eclampsia/</link>
+      <link>https://dr-galib.netlify.app/medical/pre-eclampsia/</link>
       <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/pre-eclampsia/</guid>
+      <guid>https://dr-galib.netlify.app/medical/pre-eclampsia/</guid>
       <description>&lt;h2 id=&#34;mild-pre-eclampsia&#34;&gt;Mild Pre-eclampsia&lt;/h2&gt;
 &lt;h3 id=&#34;criteria&#34;&gt;Criteria&lt;/h3&gt;
 &lt;ul&gt;
@@ -424,9 +424,9 @@ All these changes -&amp;gt; rotator cuff dysfunction -&amp;gt; upward displaceme
     </item>
     <item>
       <title>Colles&#39; Fracture</title>
-      <link>http://localhost:1313/medical/colles-fracture/</link>
+      <link>https://dr-galib.netlify.app/medical/colles-fracture/</link>
       <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/colles-fracture/</guid>
+      <guid>https://dr-galib.netlify.app/medical/colles-fracture/</guid>
       <description>&lt;h2 id=&#34;treatment&#34;&gt;Treatment&lt;/h2&gt;
 &lt;h3 id=&#34;undisplaced&#34;&gt;Undisplaced&lt;/h3&gt;
 &lt;ul&gt;
@@ -447,9 +447,9 @@ All these changes -&amp;gt; rotator cuff dysfunction -&amp;gt; upward displaceme
     </item>
     <item>
       <title>Fracture Clavicle</title>
-      <link>http://localhost:1313/medical/fracture-clavicle/</link>
+      <link>https://dr-galib.netlify.app/medical/fracture-clavicle/</link>
       <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/fracture-clavicle/</guid>
+      <guid>https://dr-galib.netlify.app/medical/fracture-clavicle/</guid>
       <description>&lt;h2 id=&#34;treatment&#34;&gt;Treatment&lt;/h2&gt;
 &lt;h3 id=&#34;non-operative&#34;&gt;Non-operative&lt;/h3&gt;
 &lt;p&gt;Most clavicle fractures unite rapidly despite displacement. Mainstay of treatment is &lt;strong&gt;simple sling&lt;/strong&gt; for 1-3 weeks or until pain subsides.&lt;/p&gt;
@@ -468,9 +468,9 @@ All these changes -&amp;gt; rotator cuff dysfunction -&amp;gt; upward displaceme
     </item>
     <item>
       <title>Fracture Neck of Femur</title>
-      <link>http://localhost:1313/medical/fracture-neck-femur/</link>
+      <link>https://dr-galib.netlify.app/medical/fracture-neck-femur/</link>
       <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/fracture-neck-femur/</guid>
+      <guid>https://dr-galib.netlify.app/medical/fracture-neck-femur/</guid>
       <description>&lt;h2 id=&#34;treatment&#34;&gt;Treatment&lt;/h2&gt;
 &lt;h3 id=&#34;young-adult&#34;&gt;Young Adult&lt;/h3&gt;
 &lt;p&gt;Closed Reduction and Internal Fixation with cannulated hip screws&lt;/p&gt;
@@ -479,9 +479,9 @@ All these changes -&amp;gt; rotator cuff dysfunction -&amp;gt; upward displaceme
     </item>
     <item>
       <title>Open Fracture Tibia</title>
-      <link>http://localhost:1313/medical/open-fracture-tibia/</link>
+      <link>https://dr-galib.netlify.app/medical/open-fracture-tibia/</link>
       <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/open-fracture-tibia/</guid>
+      <guid>https://dr-galib.netlify.app/medical/open-fracture-tibia/</guid>
       <description>&lt;h2 id=&#34;treatment&#34;&gt;Treatment&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Antibiotics&lt;/li&gt;
@@ -509,9 +509,9 @@ All these changes -&amp;gt; rotator cuff dysfunction -&amp;gt; upward displaceme
     </item>
     <item>
       <title>Supracondylar Fracture of Humerus</title>
-      <link>http://localhost:1313/medical/supracondylar-fracture-humerus/</link>
+      <link>https://dr-galib.netlify.app/medical/supracondylar-fracture-humerus/</link>
       <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/medical/supracondylar-fracture-humerus/</guid>
+      <guid>https://dr-galib.netlify.app/medical/supracondylar-fracture-humerus/</guid>
       <description>&lt;h2 id=&#34;treatment&#34;&gt;Treatment&lt;/h2&gt;
 &lt;h3 id=&#34;undisplaced&#34;&gt;Undisplaced&lt;/h3&gt;
 &lt;p&gt;Long arm back slab for 3 weeks with elbow at 90 degrees or less.&lt;/p&gt;
