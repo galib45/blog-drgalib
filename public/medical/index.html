@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <meta name="description" content="Medical - Dr. Asadul Al Galib">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/medical/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.aeb04085357f24835232aa89766467110fb6da019fa0a790d4d097b3949d7276.css" integrity="sha256-rrBAhTV/JINSMqqJdmRnEQ&#43;22gGfoKeQ1NCXs5SdcnY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a1a1b118b3e83435265dc39da18e54244bcc0e5481d1d034aadc0c899c51e15c.css" integrity="sha256-oaGxGLPoNDUmXcOdoY5UJEvMDlSB0dA0qtwMiZxR4Vw=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/medical/index.xml">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/medical/index.xml" title="rss">
 <link rel="alternate" hreflang="en" href="http://localhost:1313/medical/">
 <noscript>
     <style>
@@ -40,23 +40,32 @@
                 --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+            .toc {
+                background: var(--entry);
             }
         }
 
     </style>
-</noscript><meta property="og:url" content="http://localhost:1313/medical/">
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/medical/">
   <meta property="og:site_name" content="Dr. Asadul Al Galib">
   <meta property="og:title" content="Medical">
   <meta property="og:locale" content="en-us">
@@ -85,31 +94,19 @@
 }
 </script>
 </head>
-
 <body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
+    <header class="header">
+    <nav class="header-nav">
         <div class="logo">
             <a href="http://localhost:1313/" accesskey="h" title="Dr. Asadul Al Galib (Alt + H)">Dr. Asadul Al Galib</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -125,7 +122,7 @@
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="http://localhost:1313/medical/" title="Medical">
                     <span class="active">Medical</span>
@@ -145,11 +142,64 @@
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">Home</a></div>
+<header class="page-header"><nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+</nav>
   <h1>
     Medical
   </h1>
 </header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Impingement Syndrome
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p> repetitive compression or rubbing of the tendons (mainly supraspinatus) under coraco-acromial arch i.e. subacromial space during abduction -&gt; conjoint tendon slides under coraco-acromial arch abduction approaches 90 deg -&gt; subacromial space narrows internal rotation -&gt; narrower, external rotation -&gt; wider naturally, at 90 deg abduction -&gt; arm externally rotates to increase the space activities with repeated int. and ext. rotation (window cleaning, wall painting) -&gt; compression, rubbing, friction of the tendon -&gt; impingement syndrome Impingement Position -&gt; abduction, slight flexion, internal rotation Site of impingment -&gt; critical area of diminished vascularity in the supraspinatus tendon about 1 cm proximal to its insertion into the greater tuberosity Intrinsic factors degeneration of the tendon (age-related, cell-mediated) changes in the presence of highly sulphated glycosaminoglycans changes in the collagen composition with loading. Changes in vascularity
+All these changes -&gt; rotator cuff dysfunction -&gt; upward displacement of the humeral head -&gt; subsequent extrinsic compression. Extrinsic factors spurs growing down the coracoacromial ligament a laterally sloping acromion osteoarthritic thickening of the acromioclavicular joint Effects friction -&gt; tendinitis (edema, swelling) -&gt; usually self-limiting prolonged / repetitive -&gt; minute tears -&gt; scarring, fibrocartilaginous metaplasia, calcification in the tendon healing -&gt; vascular reaction -&gt; local congestion -&gt; narrowing of the space -&gt; further impingement slow healing / sudden strain -&gt; microscopic tear extends -&gt; partial / full thickness tear -&gt; loss of abduction large tears -&gt; disturbed shoulder mechanics -&gt; osteoarthritis of the glenohumeral joint Clinical features typically those of a Rotator Cuff Syndrome Subsequent progress depends on the stage of the disorder, the age of the patient and the vigour of the healing response 3 patterns subacute tendinitis chronic tendinitis cuff disruption Subacute tendinitis (painful arc syndrome) anterior shoulder pain after vigorous/unaccustomed activity tenderness along the anterior edge of acromion (easily elicited on extension) often reversible, relieves spontaneously by activity modification Chronic tendinitis recurrent attacks of subacute tendinitis pain relieves with rest, anti-inflammatory treatment recurs with more demanding activity pain is worse at night, patient cannot lie on the affected side pain restricts even simple activities like hair grooming, dressing signs of bicipital tendinitis (tenderness in the bicipital groove, crepitus on moving tendon) Most advanced stage is progressive fibrosis and cuff disruption. Patient gives history of refractory shoulder pain, increasing stiffness and weakness.
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-05-07 00:00:00 +0000 UTC'>May 7, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>804 words</span></footer>
+  <a class="entry-link" aria-label="post link to Impingement Syndrome" href="http://localhost:1313/medical/orthopedics/impingement-syndrome/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Rehabilitation Protocol for Rotator Cuff Tendinitis
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Phase I (1-2 weeks) passive of active-assisted ROM exercises in pain-free ranges improve or maintain motion provide gentle stress for healing collagen tissue optimize subacromial gliding mechanism phase I ROM -&gt; forward elevation and external rotation, hold for 10 seconds, 10 times each, 2 times daily. both exercises should be pain free phase II ROM -&gt; extension, internal rotation, cross-body adduction, hold for 10 seconds, 10 times each, 2-4 times daily phase I strengthening exercises (using elastic bands / free weights) -&gt; external rotation, internal rotation, flexion, extension Phase II (2-4 weeks) pain and inflammation has resolved, ROM &amp; strength improved sleeper stretch -&gt; hold for 10 seconds, 5 times wall stretch &amp; stretch behind the head phase II strengthening (after reaching level 3 resistance in all phase I strengthening exercises) -&gt; abduction and forward elevation to 45 degrees &amp; external rotation at 45 degrees total arm strengthening with biceps and triceps exercises scapular strengthening exercises -&gt; horizontal abduction with scapular retraction, external rotation with elastic resistance Phase III ROM should be full and pain-free athletes will progress to higher-level exercises involving functional combination movements in more provocative positions Phase IV Athletes should continue with the rotator cuff, deltoid, and scapular exercises with a bias toward sport-specific positions
+</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-05-07 00:00:00 +0000 UTC'>May 7, 2026</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>208 words</span></footer>
+  <a class="entry-link" aria-label="post link to Rehabilitation Protocol for Rotator Cuff Tendinitis" href="http://localhost:1313/medical/orthopedics/rehabilitation-protocol-for-rotator-cuff-tendinitis/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Rotator Cuff Syndrome
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>This comprises of at least four conditions
+supraspinatus impingement and tendinitis tears of the rotator cuff acute calcific tendinitis biceps tendinitis and/or rupture. Symptoms pain and/or weakness during certain movements of the shoulder. Pain may have started recently, sometimes quite suddenly, after a particular type of exertion; the patient may know precisely which movements now reignite the pain and which to avoid. Rotator cuff pain over the front and lateral aspect of the shoulder during activities with the arm abducted and medially rotated may be present even with the arm at rest tenderness is felt at the anterior edge of the acromion. site association in front along the delto-pectoral boundary biceps tendon over the top of the shoulder acromio-clavicular pathology at the back along the scapular border cervical spine Rotator Cuff Anatomy The rotator cuff comprises the lateral portions of the infraspinatus, teres minor, supraspinatus and subscapularis muscles and their conjoint tendon which is inserted into the greater and lesser tuberosity of the humerus.
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-05-07 00:00:00 +0000 UTC'>May 7, 2026</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>205 words</span></footer>
+  <a class="entry-link" aria-label="post link to Rotator Cuff Syndrome" href="http://localhost:1313/medical/orthopedics/rotator-cuff-syndrome/"></a>
+</article>
 
 <article class="post-entry"> 
   <header class="entry-header">
@@ -162,7 +212,9 @@ Threatened Abortion Clinical entity in which the process of abortion has started
 Symptoms Amenorrhea with sign symptoms of pregnancy. Per vaginal bleeding (slight, bright red, stops spontaneously). Slight or no pain. Signs Internal os closed. Uterine size corresponds to the period of amenorrhea. Uterus &amp; cervix feel soft. Investigations CBC Blood grouping &amp; Rh typing Urine for pregnancy test USG of the uterus for pregnancy profile (well-formed gestational sac with central echoes). RBS, thyroid profile Treatment Observation. Rest, analgesics. Empirical use of micronized progesterone. Advice: Avoid heavy work for 2 weeks. Avoid coitus up to 12 weeks of gestation. Follow up USG after 3-4 weeks. Inevitable Abortion Type of abortion in which the changes have progressed to a level from which continuation of pregnancy is impossible.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2022-07-08 00:00:00 +0000 UTC'>July 8, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;388 words</footer>
+  <footer class="entry-footer">
+
+<span title='2022-07-08 00:00:00 +0000 UTC'>July 8, 2022</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>388 words</span></footer>
   <a class="entry-link" aria-label="post link to Abortion" href="http://localhost:1313/medical/abortion/"></a>
 </article>
 
@@ -174,45 +226,10 @@ Symptoms Amenorrhea with sign symptoms of pregnancy. Per vaginal bleeding (sligh
   <div class="entry-content">
     <p>Management Oral iron therapy Ferrous sulfate 200mg BD/TDS Follow up CBC after 2-3 weeks If improvement Continue oral therapy until 3 months after Hb becomes normal If no significant improvement or severe anemia or intolerance for oral iron Check serum ferritin If ferritin &gt;= 30 mcg/L → exclude hemoglobinopathies If ferritin &lt; 30 mcg/L → parenteral iron therapy Parenteral iron therapy Ferric carboxymaltose Dose depends on the pre-pregnancy weight or weight at the booking visit Continue oral iron after 5 days (if tolerated) Follow up CBC after 2-3 weeks Another dose of parenteral iron, if needed Indications of blood transfusion Hb &lt;= 6 mg/dl and gestational age &gt; 36 weeks Hb between 6-8 mg/dl with any of the following conditions: Established or incipient heart failure Pre-existing heart disease Pneumonia or any other serious bacterial infection Malaria </p>
   </div>
-  <footer class="entry-footer"><span title='2022-06-04 00:00:00 +0000 UTC'>June 4, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;136 words</footer>
+  <footer class="entry-footer">
+
+<span title='2022-06-04 00:00:00 +0000 UTC'>June 4, 2022</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>136 words</span></footer>
   <a class="entry-link" aria-label="post link to Anemia in pregnancy" href="http://localhost:1313/medical/anemia-in-pregnancy/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Eclampsia
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Management General Management Shout for help Position the patient in eclamptic position Simultaneous assessment &amp; resuscitation: Assess airway, breathing &amp; circulation Oxygen inhalation IV fluid Catheterization to monitor urine output Protect the patient from other injuries Nutritional support Prophylactic antibiotic (ceftriaxone 1gm IV bd) Monitoring of fetal and maternal condition Send blood for investigations (CBC, S. electrolytes, S. creatinine, ALT, S. bilirubin, etc.) Control of Convulsion Drug of choice is MgSO₄ If contraindicated or not available, give diazepam ...</p>
-  </div>
-  <footer class="entry-footer"><span title='2022-06-04 00:00:00 +0000 UTC'>June 4, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;111 words</footer>
-  <a class="entry-link" aria-label="post link to Eclampsia" href="http://localhost:1313/medical/eclampsia/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Multiple Pregnancy
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>History History of ovulation inducing drugs or use of ART Family history of twinning Symptoms Increased nausea &amp; vomiting Unusual rate of abdominal enlargement Excessive fetal movement Signs General Examination Anemia (more than singleton pregnancy) Unusual weight gain Evidence of pre-eclampsia Abdominal Examination Inspection Abdomen is unduly enlarged Palpation Height of the uterus is more than the period of amenorrhea Girth of the abdomen is more than the normal average at term (100 cm) Palpation of too many fetal parts Auscultation Simultaneous auscultation of 2 distinct heart sounds Investigation USG of the pregnancy profile Treatment Antenatal Management Increased dietary supplement (extra 300 calories) Increased rest Early cessation of work Increased supplementation of iron, vitamins, calcium, folic acid More frequent antenatal visit USG every month Hospitalization if any complications or at 38 weeks of pregnancy Obstetric Management First Stage of Labor Skilled obstetrician and neonatologist should be present Patient should be in bed (to prevent early rupture of the membranes) Careful monitoring One bag of blood should be kept in hand Check for cord prolapse if membrane ruptures Delivery of the First Baby Same guidelines as normal labor Liberal episiotomy Don’t give IV ergometrine after delivery The baby is labeled as number 1 Delivery of the Second Baby ...</p>
-  </div>
-  <footer class="entry-footer"><span title='2022-06-04 00:00:00 +0000 UTC'>June 4, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;261 words</footer>
-  <a class="entry-link" aria-label="post link to Multiple Pregnancy" href="http://localhost:1313/medical/multiple-pregnancy/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Postpartum Hemorrhage
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Management Immediate Measures Call for extra help Open IV channel by 2 wide bore cannula Send blood for grouping, cross-matching &amp; coagulation screening Ask for blood (at least 2 units) &amp; transfuse when available Give IV fluid (Hartmann solution) till blood is available Catheterization to monitor urine output Monitor pulse, BP, temperature, and urine output every 15-30 minutes Tranexamic acid Find out the Cause Feel the uterus by abdominal palpation:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2022-06-04 00:00:00 +0000 UTC'>June 4, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;138 words</footer>
-  <a class="entry-link" aria-label="post link to Postpartum Hemorrhage" href="http://localhost:1313/medical/postpartum-hemorrhage/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
@@ -225,22 +242,31 @@ Symptoms Amenorrhea with sign symptoms of pregnancy. Per vaginal bleeding (sligh
 <footer class="footer">
         <span>&copy; 2026 <a href="http://localhost:1313/">Dr. Asadul Al Galib</a></span> · 
 
+    
+    
     <span>
         Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -267,25 +293,25 @@ Symptoms Amenorrhea with sign symptoms of pregnancy. Per vaginal bleeding (sligh
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })

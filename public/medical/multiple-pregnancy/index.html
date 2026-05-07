@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -75,7 +75,7 @@ Delivery of the Second Baby
 ">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/medical/multiple-pregnancy/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.aeb04085357f24835232aa89766467110fb6da019fa0a790d4d097b3949d7276.css" integrity="sha256-rrBAhTV/JINSMqqJdmRnEQ&#43;22gGfoKeQ1NCXs5SdcnY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a1a1b118b3e83435265dc39da18e54244bcc0e5481d1d034aadc0c899c51e15c.css" integrity="sha256-oaGxGLPoNDUmXcOdoY5UJEvMDlSB0dA0qtwMiZxR4Vw=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -104,23 +104,32 @@ Delivery of the Second Baby
                 --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+            .toc {
+                background: var(--entry);
             }
         }
 
     </style>
-</noscript><meta property="og:url" content="http://localhost:1313/medical/multiple-pregnancy/">
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/medical/multiple-pregnancy/">
   <meta property="og:site_name" content="Dr. Asadul Al Galib">
   <meta property="og:title" content="Multiple Pregnancy">
   <meta property="og:description" content="History History of ovulation inducing drugs or use of ART Family history of twinning Symptoms Increased nausea &amp; vomiting Unusual rate of abdominal enlargement Excessive fetal movement Signs General Examination Anemia (more than singleton pregnancy) Unusual weight gain Evidence of pre-eclampsia Abdominal Examination Inspection Abdomen is unduly enlarged Palpation Height of the uterus is more than the period of amenorrhea Girth of the abdomen is more than the normal average at term (100 cm) Palpation of too many fetal parts Auscultation Simultaneous auscultation of 2 distinct heart sounds Investigation USG of the pregnancy profile Treatment Antenatal Management Increased dietary supplement (extra 300 calories) Increased rest Early cessation of work Increased supplementation of iron, vitamins, calcium, folic acid More frequent antenatal visit USG every month Hospitalization if any complications or at 38 weeks of pregnancy Obstetric Management First Stage of Labor Skilled obstetrician and neonatologist should be present Patient should be in bed (to prevent early rupture of the membranes) Careful monitoring One bag of blood should be kept in hand Check for cord prolapse if membrane ruptures Delivery of the First Baby Same guidelines as normal labor Liberal episiotomy Don’t give IV ergometrine after delivery The baby is labeled as number 1 Delivery of the Second Baby ">
@@ -190,31 +199,19 @@ Delivery of the Second Baby
 }
 </script>
 </head>
-
-<body class="" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
         <div class="logo">
             <a href="http://localhost:1313/" accesskey="h" title="Dr. Asadul Al Galib (Alt + H)">Dr. Asadul Al Galib</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -230,7 +227,7 @@ Delivery of the Second Baby
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="http://localhost:1313/medical/" title="Medical">
                     <span>Medical</span>
@@ -253,82 +250,93 @@ Delivery of the Second Baby
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/medical/">Medical</a></div>
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/medical/">Medical</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+</nav>
     <h1 class="post-title entry-hint-parent">
       Multiple Pregnancy
     </h1>
-    <div class="post-meta"><span title='2022-06-04 00:00:00 +0000 UTC'>June 4, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;261 words
+    <div class="post-meta">
+
+<span title='2022-06-04 00:00:00 +0000 UTC'>June 4, 2022</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>261 words</span>
 
 </div>
-  </header> <div class="toc">
-    <details >
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="details">Table of Contents</span>
-        </summary>
+  </header> <details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
 
-        <div class="inner"><ul>
-                <li>
-                    <a href="#history" aria-label="History">History</a></li>
-                <li>
-                    <a href="#symptoms" aria-label="Symptoms">Symptoms</a></li>
-                <li>
-                    <a href="#signs" aria-label="Signs">Signs</a><ul>
-                        
-                <li>
-                    <a href="#general-examination" aria-label="General Examination">General Examination</a></li>
-                <li>
-                    <a href="#abdominal-examination" aria-label="Abdominal Examination">Abdominal Examination</a><ul>
-                        
-                <li>
-                    <a href="#inspection" aria-label="Inspection">Inspection</a></li>
-                <li>
-                    <a href="#palpation" aria-label="Palpation">Palpation</a></li>
-                <li>
-                    <a href="#auscultation" aria-label="Auscultation">Auscultation</a></li></ul>
-                </li></ul>
-                </li>
-                <li>
-                    <a href="#investigation" aria-label="Investigation">Investigation</a></li>
-                <li>
-                    <a href="#treatment" aria-label="Treatment">Treatment</a><ul>
-                        
-                <li>
-                    <a href="#antenatal-management" aria-label="Antenatal Management">Antenatal Management</a></li>
-                <li>
-                    <a href="#obstetric-management" aria-label="Obstetric Management">Obstetric Management</a><ul>
-                        
-                <li>
-                    <a href="#first-stage-of-labor" aria-label="First Stage of Labor">First Stage of Labor</a></li>
-                <li>
-                    <a href="#delivery-of-the-first-baby" aria-label="Delivery of the First Baby">Delivery of the First Baby</a></li>
-                <li>
-                    <a href="#delivery-of-the-second-baby" aria-label="Delivery of the Second Baby">Delivery of the Second Baby</a></li></ul>
-                </li></ul>
-                </li>
-                <li>
-                    <a href="#complications" aria-label="Complications">Complications</a><ul>
-                        
-                <li>
-                    <a href="#maternal" aria-label="Maternal">Maternal</a><ul>
-                        
-                <li>
-                    <a href="#during-pregnancy" aria-label="During Pregnancy">During Pregnancy</a></li>
-                <li>
-                    <a href="#during-labor" aria-label="During Labor">During Labor</a></li>
-                <li>
-                    <a href="#during-puerperium" aria-label="During Puerperium">During Puerperium</a></li></ul>
-                </li>
-                <li>
-                    <a href="#fetal" aria-label="Fetal">Fetal</a>
-                </li>
-            </ul>
+    <div class="inner"><ul>
+            <li>
+                <a href="#history" aria-label="History">History</a></li>
+            <li>
+                <a href="#symptoms" aria-label="Symptoms">Symptoms</a></li>
+            <li>
+                <a href="#signs" aria-label="Signs">Signs</a><ul>
+                    
+            <li>
+                <a href="#general-examination" aria-label="General Examination">General Examination</a></li>
+            <li>
+                <a href="#abdominal-examination" aria-label="Abdominal Examination">Abdominal Examination</a><ul>
+                    
+            <li>
+                <a href="#inspection" aria-label="Inspection">Inspection</a></li>
+            <li>
+                <a href="#palpation" aria-label="Palpation">Palpation</a></li>
+            <li>
+                <a href="#auscultation" aria-label="Auscultation">Auscultation</a></li></ul>
+            </li></ul>
             </li>
-            </ul>
-        </div>
-    </details>
-</div>
+            <li>
+                <a href="#investigation" aria-label="Investigation">Investigation</a></li>
+            <li>
+                <a href="#treatment" aria-label="Treatment">Treatment</a><ul>
+                    
+            <li>
+                <a href="#antenatal-management" aria-label="Antenatal Management">Antenatal Management</a></li>
+            <li>
+                <a href="#obstetric-management" aria-label="Obstetric Management">Obstetric Management</a><ul>
+                    
+            <li>
+                <a href="#first-stage-of-labor" aria-label="First Stage of Labor">First Stage of Labor</a></li>
+            <li>
+                <a href="#delivery-of-the-first-baby" aria-label="Delivery of the First Baby">Delivery of the First Baby</a></li>
+            <li>
+                <a href="#delivery-of-the-second-baby" aria-label="Delivery of the Second Baby">Delivery of the Second Baby</a></li></ul>
+            </li></ul>
+            </li>
+            <li>
+                <a href="#complications" aria-label="Complications">Complications</a><ul>
+                    
+            <li>
+                <a href="#maternal" aria-label="Maternal">Maternal</a><ul>
+                    
+            <li>
+                <a href="#during-pregnancy" aria-label="During Pregnancy">During Pregnancy</a></li>
+            <li>
+                <a href="#during-labor" aria-label="During Labor">During Labor</a></li>
+            <li>
+                <a href="#during-puerperium" aria-label="During Puerperium">During Puerperium</a></li></ul>
+            </li>
+            <li>
+                <a href="#fetal" aria-label="Fetal">Fetal</a>
+            </li>
+        </ul>
+        </li>
+        </ul>
+    </div>
+</details>
 
-  <div class="post-content"><h2 id="history">History<a hidden class="anchor" aria-hidden="true" href="#history">#</a></h2>
+  <div class="post-content md-content"><h2 id="history">History<a hidden class="anchor" aria-hidden="true" href="#history">#</a></h2>
 <ul>
 <li>History of ovulation inducing drugs or use of ART</li>
 <li>Family history of twinning</li>
@@ -441,12 +449,10 @@ Delivery of the Second Baby
 <nav class="paginav">
   <a class="prev" href="http://localhost:1313/medical/eclampsia/">
     <span class="title">« Prev</span>
-    <br>
     <span>Eclampsia</span>
   </a>
   <a class="next" href="http://localhost:1313/medical/postpartum-hemorrhage/">
     <span class="title">Next »</span>
-    <br>
     <span>Postpartum Hemorrhage</span>
   </a>
 </nav>
@@ -526,22 +532,31 @@ Delivery of the Second Baby
 <footer class="footer">
         <span>&copy; 2026 <a href="http://localhost:1313/">Dr. Asadul Al Galib</a></span> · 
 
+    
+    
     <span>
         Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -568,25 +583,25 @@ Delivery of the Second Baby
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })

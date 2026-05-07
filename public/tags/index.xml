@@ -2,129 +2,136 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Dr. Asadul Al Galib</title>
-    <link>https://dr-galib.netlify.app/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Dr. Asadul Al Galib</description>
-    <generator>Hugo -- 0.147.5</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jun 2025 01:20:17 +0600</lastBuildDate>
-    <atom:link href="https://dr-galib.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 May 2026 19:13:29 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shoulder</title>
+      <link>http://localhost:1313/tags/shoulder/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/shoulder/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Alsa</title>
-      <link>https://dr-galib.netlify.app/tags/alsa/</link>
+      <link>http://localhost:1313/tags/alsa/</link>
       <pubDate>Sun, 01 Jun 2025 01:20:17 +0600</pubDate>
-      <guid>https://dr-galib.netlify.app/tags/alsa/</guid>
+      <guid>http://localhost:1313/tags/alsa/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>https://dr-galib.netlify.app/tags/linux/</link>
+      <link>http://localhost:1313/tags/linux/</link>
       <pubDate>Sun, 01 Jun 2025 01:20:17 +0600</pubDate>
-      <guid>https://dr-galib.netlify.app/tags/linux/</guid>
+      <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Pipewire</title>
-      <link>https://dr-galib.netlify.app/tags/pipewire/</link>
+      <link>http://localhost:1313/tags/pipewire/</link>
       <pubDate>Sun, 01 Jun 2025 01:20:17 +0600</pubDate>
-      <guid>https://dr-galib.netlify.app/tags/pipewire/</guid>
+      <guid>http://localhost:1313/tags/pipewire/</guid>
       <description></description>
     </item>
     <item>
       <title>Pulseaudio</title>
-      <link>https://dr-galib.netlify.app/tags/pulseaudio/</link>
+      <link>http://localhost:1313/tags/pulseaudio/</link>
       <pubDate>Sun, 01 Jun 2025 01:20:17 +0600</pubDate>
-      <guid>https://dr-galib.netlify.app/tags/pulseaudio/</guid>
+      <guid>http://localhost:1313/tags/pulseaudio/</guid>
       <description></description>
     </item>
     <item>
       <title>Sof</title>
-      <link>https://dr-galib.netlify.app/tags/sof/</link>
+      <link>http://localhost:1313/tags/sof/</link>
       <pubDate>Sun, 01 Jun 2025 01:20:17 +0600</pubDate>
-      <guid>https://dr-galib.netlify.app/tags/sof/</guid>
+      <guid>http://localhost:1313/tags/sof/</guid>
       <description></description>
     </item>
     <item>
       <title>Hyprland</title>
-      <link>https://dr-galib.netlify.app/tags/hyprland/</link>
+      <link>http://localhost:1313/tags/hyprland/</link>
       <pubDate>Thu, 29 May 2025 00:41:30 +0600</pubDate>
-      <guid>https://dr-galib.netlify.app/tags/hyprland/</guid>
+      <guid>http://localhost:1313/tags/hyprland/</guid>
       <description></description>
     </item>
     <item>
       <title>Hyprpaper</title>
-      <link>https://dr-galib.netlify.app/tags/hyprpaper/</link>
+      <link>http://localhost:1313/tags/hyprpaper/</link>
       <pubDate>Thu, 29 May 2025 00:41:30 +0600</pubDate>
-      <guid>https://dr-galib.netlify.app/tags/hyprpaper/</guid>
+      <guid>http://localhost:1313/tags/hyprpaper/</guid>
       <description></description>
     </item>
     <item>
       <title>Wallpaper</title>
-      <link>https://dr-galib.netlify.app/tags/wallpaper/</link>
+      <link>http://localhost:1313/tags/wallpaper/</link>
       <pubDate>Thu, 29 May 2025 00:41:30 +0600</pubDate>
-      <guid>https://dr-galib.netlify.app/tags/wallpaper/</guid>
+      <guid>http://localhost:1313/tags/wallpaper/</guid>
       <description></description>
     </item>
     <item>
       <title>Dkms</title>
-      <link>https://dr-galib.netlify.app/tags/dkms/</link>
+      <link>http://localhost:1313/tags/dkms/</link>
       <pubDate>Sun, 25 May 2025 16:07:36 +0600</pubDate>
-      <guid>https://dr-galib.netlify.app/tags/dkms/</guid>
+      <guid>http://localhost:1313/tags/dkms/</guid>
       <description></description>
     </item>
     <item>
       <title>Driver</title>
-      <link>https://dr-galib.netlify.app/tags/driver/</link>
+      <link>http://localhost:1313/tags/driver/</link>
       <pubDate>Sun, 25 May 2025 16:07:36 +0600</pubDate>
-      <guid>https://dr-galib.netlify.app/tags/driver/</guid>
+      <guid>http://localhost:1313/tags/driver/</guid>
       <description></description>
     </item>
     <item>
       <title>Kernel</title>
-      <link>https://dr-galib.netlify.app/tags/kernel/</link>
+      <link>http://localhost:1313/tags/kernel/</link>
       <pubDate>Sun, 25 May 2025 16:07:36 +0600</pubDate>
-      <guid>https://dr-galib.netlify.app/tags/kernel/</guid>
+      <guid>http://localhost:1313/tags/kernel/</guid>
       <description></description>
     </item>
     <item>
       <title>Wifi</title>
-      <link>https://dr-galib.netlify.app/tags/wifi/</link>
+      <link>http://localhost:1313/tags/wifi/</link>
       <pubDate>Sun, 25 May 2025 16:07:36 +0600</pubDate>
-      <guid>https://dr-galib.netlify.app/tags/wifi/</guid>
+      <guid>http://localhost:1313/tags/wifi/</guid>
       <description></description>
     </item>
     <item>
       <title>Debian</title>
-      <link>https://dr-galib.netlify.app/tags/debian/</link>
+      <link>http://localhost:1313/tags/debian/</link>
       <pubDate>Mon, 07 Oct 2024 20:39:49 +0000</pubDate>
-      <guid>https://dr-galib.netlify.app/tags/debian/</guid>
+      <guid>http://localhost:1313/tags/debian/</guid>
       <description></description>
     </item>
     <item>
       <title>Installation</title>
-      <link>https://dr-galib.netlify.app/tags/installation/</link>
+      <link>http://localhost:1313/tags/installation/</link>
       <pubDate>Mon, 07 Oct 2024 20:39:49 +0000</pubDate>
-      <guid>https://dr-galib.netlify.app/tags/installation/</guid>
+      <guid>http://localhost:1313/tags/installation/</guid>
       <description></description>
     </item>
     <item>
       <title>Voidlinux</title>
-      <link>https://dr-galib.netlify.app/tags/voidlinux/</link>
+      <link>http://localhost:1313/tags/voidlinux/</link>
       <pubDate>Mon, 07 Oct 2024 20:39:49 +0000</pubDate>
-      <guid>https://dr-galib.netlify.app/tags/voidlinux/</guid>
+      <guid>http://localhost:1313/tags/voidlinux/</guid>
       <description></description>
     </item>
     <item>
       <title>Obstetrics</title>
-      <link>https://dr-galib.netlify.app/tags/obstetrics/</link>
+      <link>http://localhost:1313/tags/obstetrics/</link>
       <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://dr-galib.netlify.app/tags/obstetrics/</guid>
+      <guid>http://localhost:1313/tags/obstetrics/</guid>
       <description></description>
     </item>
     <item>
       <title>Orthopedics</title>
-      <link>https://dr-galib.netlify.app/tags/orthopedics/</link>
+      <link>http://localhost:1313/tags/orthopedics/</link>
       <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://dr-galib.netlify.app/tags/orthopedics/</guid>
+      <guid>http://localhost:1313/tags/orthopedics/</guid>
       <description></description>
     </item>
   </channel>
