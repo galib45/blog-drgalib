@@ -2,119 +2,119 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dr-galib.netlify.app/tags/alsa/</loc>
+    <loc>http://localhost:1313/tags/alsa/</loc>
     <lastmod>2025-06-01T01:20:17+06:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-06-01T01:20:17+06:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tags/linux/</loc>
+    <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2025-06-01T01:20:17+06:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tags/pipewire/</loc>
+    <loc>http://localhost:1313/tags/pipewire/</loc>
     <lastmod>2025-06-01T01:20:17+06:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tags/pulseaudio/</loc>
+    <loc>http://localhost:1313/tags/pulseaudio/</loc>
     <lastmod>2025-06-01T01:20:17+06:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tech/setting-up-sound-using-pipewire/</loc>
+    <loc>http://localhost:1313/tech/setting-up-sound-using-pipewire/</loc>
     <lastmod>2025-06-01T01:20:17+06:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tags/sof/</loc>
+    <loc>http://localhost:1313/tags/sof/</loc>
     <lastmod>2025-06-01T01:20:17+06:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-06-01T01:20:17+06:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tech/</loc>
+    <loc>http://localhost:1313/tech/</loc>
     <lastmod>2025-06-01T01:20:17+06:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tags/hyprland/</loc>
+    <loc>http://localhost:1313/tags/hyprland/</loc>
     <lastmod>2025-05-29T00:41:30+06:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tags/hyprpaper/</loc>
+    <loc>http://localhost:1313/tags/hyprpaper/</loc>
     <lastmod>2025-05-29T00:41:30+06:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tags/wallpaper/</loc>
+    <loc>http://localhost:1313/tags/wallpaper/</loc>
     <lastmod>2025-05-29T00:41:30+06:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tech/wallpapers-in-hyprland/</loc>
+    <loc>http://localhost:1313/tech/wallpapers-in-hyprland/</loc>
     <lastmod>2025-05-29T00:41:30+06:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tags/dkms/</loc>
+    <loc>http://localhost:1313/tags/dkms/</loc>
     <lastmod>2025-05-25T16:07:36+06:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tags/driver/</loc>
+    <loc>http://localhost:1313/tags/driver/</loc>
     <lastmod>2025-05-25T16:07:36+06:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tags/kernel/</loc>
+    <loc>http://localhost:1313/tags/kernel/</loc>
     <lastmod>2025-05-25T16:07:36+06:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tech/using-usb-wifi-adapter-in-linux/</loc>
+    <loc>http://localhost:1313/tech/using-usb-wifi-adapter-in-linux/</loc>
     <lastmod>2025-05-25T16:07:36+06:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tags/wifi/</loc>
+    <loc>http://localhost:1313/tags/wifi/</loc>
     <lastmod>2025-05-25T16:07:36+06:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tech/setup-hyprland-in-bare-metal-void-linux/</loc>
+    <loc>http://localhost:1313/tech/setup-hyprland-in-bare-metal-void-linux/</loc>
     <lastmod>2024-10-08T00:47:38+00:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tags/debian/</loc>
+    <loc>http://localhost:1313/tags/debian/</loc>
     <lastmod>2024-10-07T20:39:49+00:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tech/install-void-linux-from-debian/</loc>
+    <loc>http://localhost:1313/tech/install-void-linux-from-debian/</loc>
     <lastmod>2024-10-07T20:39:49+00:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tags/installation/</loc>
+    <loc>http://localhost:1313/tags/installation/</loc>
     <lastmod>2024-10-07T20:39:49+00:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tags/voidlinux/</loc>
+    <loc>http://localhost:1313/tags/voidlinux/</loc>
     <lastmod>2024-10-07T20:39:49+00:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/medical/abortion/</loc>
+    <loc>http://localhost:1313/medical/abortion/</loc>
     <lastmod>2022-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/medical/</loc>
+    <loc>http://localhost:1313/medical/</loc>
     <lastmod>2022-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tags/obstetrics/</loc>
+    <loc>http://localhost:1313/tags/obstetrics/</loc>
     <lastmod>2022-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/medical/anemia-in-pregnancy/</loc>
+    <loc>http://localhost:1313/medical/anemia-in-pregnancy/</loc>
     <lastmod>2022-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/medical/eclampsia/</loc>
+    <loc>http://localhost:1313/medical/eclampsia/</loc>
     <lastmod>2022-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/medical/multiple-pregnancy/</loc>
+    <loc>http://localhost:1313/medical/multiple-pregnancy/</loc>
     <lastmod>2022-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/medical/postpartum-hemorrhage/</loc>
+    <loc>http://localhost:1313/medical/postpartum-hemorrhage/</loc>
     <lastmod>2022-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/medical/pre-eclampsia/</loc>
+    <loc>http://localhost:1313/medical/pre-eclampsia/</loc>
     <lastmod>2022-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/medical/colles-fracture/</loc>
+    <loc>http://localhost:1313/medical/colles-fracture/</loc>
     <lastmod>2022-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/medical/fracture-clavicle/</loc>
+    <loc>http://localhost:1313/medical/fracture-clavicle/</loc>
     <lastmod>2022-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/medical/fracture-neck-femur/</loc>
+    <loc>http://localhost:1313/medical/fracture-neck-femur/</loc>
     <lastmod>2022-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/medical/open-fracture-tibia/</loc>
+    <loc>http://localhost:1313/medical/open-fracture-tibia/</loc>
     <lastmod>2022-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/tags/orthopedics/</loc>
+    <loc>http://localhost:1313/tags/orthopedics/</loc>
     <lastmod>2022-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/medical/supracondylar-fracture-humerus/</loc>
+    <loc>http://localhost:1313/medical/supracondylar-fracture-humerus/</loc>
     <lastmod>2022-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dr-galib.netlify.app/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://dr-galib.netlify.app/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>
