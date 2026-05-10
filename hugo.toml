@@ -6,6 +6,9 @@ theme = "PaperMod"
 enableEmoji = true
 enableRobotsTXT = true
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [pagination]
   disableAliases = false
   pagerSize = 5

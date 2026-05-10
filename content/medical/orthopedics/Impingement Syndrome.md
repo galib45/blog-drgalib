@@ -3,7 +3,7 @@ tags:
   - shoulder
 title: Impingement Syndrome
 date: 2026-05-07
-lastmod: 2026-05-07T18:38:17.403Z
+lastmod: 2026-05-08T14:14:06.721Z
 ---
 * repetitive compression or rubbing of the tendons (mainly supraspinatus) under coraco-acromial arch i.e. subacromial space
 * during abduction -> conjoint tendon slides under coraco-acromial arch
@@ -38,7 +38,7 @@ lastmod: 2026-05-07T18:38:17.403Z
 
 ## Clinical features
 
-* typically those of a [Rotator Cuff Syndrome](/medical/orthopedics/rotator-cuff-syndrome)
+* typically those of a [Rotator Cuff Syndrome](../rotator-cuff-syndrome)
 * Subsequent progress depends on the
   * stage of the disorder,
   * the age of the patient and
@@ -124,15 +124,17 @@ Most advanced stage is progressive fibrosis and cuff disruption. Patient gives h
 
 ## Treatment
 
-#### Conservative
+### Conservative
 
 * uncomplicated impingement is often self-limiting
 * teach patients how to avoid the *impingement position*
-* physiotherapy (see [Rehabilitation Protocol for Rotator Cuff Tendinitis](/medical/orthopedics/rehabilitation-protocol-for-rotator-cuff-tendinitis))
+* physiotherapy (see [Rehabilitation Protocol for Rotator Cuff Tendinitis](../rehabilitation-protocol-for-rotator-cuff-tendinitis))
 * short course of NSAID
 * if all these fail & before disability becomes marked -> 1-2 intra-articular steroid injections in the subacromial space + protective modification of shoulder activity for at least 6 months
 
-#### Surgical
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OSiPGr-1e9E?si=TptKVRcv4XolV6jQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Surgical
 
 * Acromioplasty
 * Rotator cuff repair\
